@@ -1,2 +1,1 @@
 require 'inflectious'
-require 'inflections'

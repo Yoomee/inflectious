@@ -23,7 +23,12 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "inflectious.gemspec",
+    "init.rb",
+    "lib/inflections.rb",
     "lib/inflectious.rb",
+    "lib/inflectious/inflector.rb",
+    "lib/inflectious/string.rb",
     "test/helper.rb",
     "test/test_inflectious.rb"
   ]
