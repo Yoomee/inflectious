@@ -13,11 +13,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "inflectious"
-  gem.homepage = "http://github.com/matkins/inflectious"
+  gem.homepage = "http://github.com/Yoomee/inflectious"
   gem.license = "MIT"
-  gem.summary = %Q{one-line summary of your gem}
+  gem.summary = %Q{Adds more grammatical inflections.}
   gem.description = %Q{longer description of your gem}
-  gem.email = "matt@yoomee.com"
+  gem.email = "developers@yoomee.com"
   gem.authors = ["Matt Atkins"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
