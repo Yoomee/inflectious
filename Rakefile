@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "inflectious"
   gem.homepage = "http://github.com/Yoomee/inflectious"
   gem.license = "MIT"
-  gem.summary = %Q{Adds more grammatical inflections.}
-  gem.description = %Q{longer description of your gem}
+  gem.summary = %Q{Extends Rails ActiveSupport::Inflector to include more grammatical inflections.}
+  gem.description = %Q{Extends ActiveSupport::Inflector to include grammatical inflections such as adjectivize, gerundize and superlativize etc.}
   gem.email = "developers@yoomee.com"
   gem.authors = ["Matt Atkins"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,

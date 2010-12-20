@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{inflectious}
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Atkins"]
-  s.date = %q{2010-12-19}
-  s.description = %q{longer description of your gem}
-  s.email = %q{matt@yoomee.com}
+  s.date = %q{2010-12-20}
+  s.description = %q{Extends ActiveSupport::Inflector to include grammatical inflections such as adjectivize, gerundize and superlativize etc.}
+  s.email = %q{developers@yoomee.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
@@ -32,11 +33,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_inflectious.rb"
   ]
-  s.homepage = %q{http://github.com/matkins/inflectious}
+  s.homepage = %q{http://github.com/Yoomee/inflectious}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{one-line summary of your gem}
+  s.summary = %q{Extends Rails ActiveSupport::Inflector to include more grammatical inflections.}
   s.test_files = [
     "test/helper.rb",
     "test/test_inflectious.rb"
