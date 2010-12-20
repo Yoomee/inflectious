@@ -5,7 +5,6 @@ class String
 
   def inflections_with_names
     returning out = [] do
-      out << [self, "self"]
       out << [singularize, "singularize"]
       out << [pluralize, "pluralize"]
       out << [participlize, "participlize"]
